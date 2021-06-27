@@ -1,0 +1,7 @@
+http://blog.csdn.net/unix21/article/details/8450016
+编译方法： ./mak64 filename
+   filename的后缀.s省略（这样方便一点）
+mak64 将代码和C库连接，因此可以在汇编程序中使用C函数，例如进行输入或者输出。
+
+想编译32位程序，用mak32，ubuntu需要安装32位的C库
+命令：sudo apt-get install gcc-multilib g++-multilib 
